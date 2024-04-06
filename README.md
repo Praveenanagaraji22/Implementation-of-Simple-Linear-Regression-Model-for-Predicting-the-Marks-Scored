@@ -1,18 +1,20 @@
 # Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored
 
 ## AIM:
-To write a program to predict the marks scored by a student using the simple linear regression model. 
+To write a program to predict the marks scored by a student using the simple linear regression model.
+
 
 ## Equipments Required:
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
+
 ## Algorithm
 
 1. Import the needed packages.
-2. Assigning hours To X and Scores to Y.
+2. Assigning hours to x and scores to y.
 3. Plot the scatter plot.
-4. Use mse,rmse,mae formmula to find the values.
+4. Use mse,rmse,mae formula to find the values.
 
 
 ## Program:
@@ -20,9 +22,10 @@ To write a program to predict the marks scored by a student using the simple lin
 /*
 Program to implement the simple linear regression model for predicting the marks scored.
 Developed by: PRAVEENA N
-RegisterNumber:  212222040122
+RegisterNumber: 212222040122
 */
-
+```
+```
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -83,28 +86,64 @@ print('MAE = ',mae)
 
 rmse=np.sqrt(mse)
 print("RMSE = ",rmse)
-
 ```
 
 ## Output:
 
-![WhatsApp Image 2023-04-02 at 21 55 39](https://user-images.githubusercontent.com/119395610/229366335-9cc7b718-6d6e-4461-bd62-1ba130da19dc.jpg)
+df.head()
 
-![WhatsApp Image 2023-04-02 at 22 11 34](https://user-images.githubusercontent.com/119395610/229366706-bdb4ac2d-fff8-41c9-9325-b3bfd965755d.jpg)
+![EXP2-2(a)](https://github.com/AnnBlessy/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477835/83e836a5-4565-48a7-9977-a7f085fe48d5)
 
-![WhatsApp Image 2023-04-02 at 21 57 53](https://user-images.githubusercontent.com/119395610/229366382-c6623bd1-c1d2-45fe-8eed-097e51e4377d.jpg)
+df.tail()
 
-![WhatsApp Image 2023-04-02 at 21 59 04](https://user-images.githubusercontent.com/119395610/229366392-1a088fe3-5d91-4be7-b633-a4099d093e27.jpg)
+![EXP2-2(b)](https://github.com/AnnBlessy/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477835/1e89f794-316e-495d-8cc6-d996bf4aa8fb)
 
-![WhatsApp Image 2023-04-02 at 22 00 06](https://user-images.githubusercontent.com/119395610/229366409-9cd96c06-cc84-4554-a310-314b472c8aa3.jpg)
 
-![WhatsApp Image 2023-04-02 at 22 01 46](https://user-images.githubusercontent.com/119395610/229366427-12194773-8f66-49bc-b0a2-0dda094d4598.jpg)
 
-![WhatsApp Image 2023-04-02 at 22 02 46](https://user-images.githubusercontent.com/119395610/229366450-47119646-2ac7-4952-966a-9f9eca54ec57.jpg)
 
-![WhatsApp Image 2023-04-02 at 22 08 14](https://user-images.githubusercontent.com/119395610/229366507-6c7b4359-8623-4eb1-802f-35cffc84d067.jpg)
+Array value of X
 
-![WhatsApp Image 2023-04-02 at 22 04 50](https://user-images.githubusercontent.com/119395610/229366518-c390a13b-a4ea-454a-9212-38b05af440bc.jpg)
+![EXP2-3(a)](https://github.com/AnnBlessy/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477835/6f0f203a-f964-45a6-8fef-03c94460ab0f)
+
+
+Array value of Y
+
+![EXP2-3(b)](https://github.com/AnnBlessy/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477835/b395273b-5b41-401e-b75e-ece609b0ba79)
+
+
+Values of Y Prediction
+
+![EXP2-3(c)](https://github.com/AnnBlessy/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477835/e3e7d3bb-9a18-4345-a77c-a82898b9bee6)
+
+
+Array Values of Y test
+
+![EXP2-3(d)](https://github.com/AnnBlessy/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477835/e0268633-13d2-49c9-9a4a-b970839acf42)
+
+
+
+
+
+Graph For Training Set
+
+![EXP2-4](https://github.com/AnnBlessy/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477835/1c9e8b15-9199-4037-b22f-f026defe8889)
+
+
+
+
+
+
+Graph For Testing Set
+
+![EXP2-5](https://github.com/AnnBlessy/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477835/f9ed7cc5-e28a-4376-aac4-efcd9cdc92f9)
+
+
+
+Error
+
+![EXP2-6](https://github.com/AnnBlessy/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477835/80090da9-868b-4854-b970-840396a4be77)
+
+
 
 ## Result:
 Thus the program to implement the simple linear regression model for predicting the marks scored is written and verified using python programming.
