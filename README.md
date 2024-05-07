@@ -102,6 +102,7 @@ df.tail()
 ![EXP2-2(b)](https://github.com/AnnBlessy/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477835/1e89f794-316e-495d-8cc6-d996bf4aa8fb)
 
 Array value of X
+
 ![image](https://github.com/Praveenanagaraji22/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119393514/55de3f57-7924-4167-90ea-a068049b024b)
 
 Array value of Y
