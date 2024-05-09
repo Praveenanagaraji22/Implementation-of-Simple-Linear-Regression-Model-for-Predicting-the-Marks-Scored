@@ -93,6 +93,7 @@ rmse=np.sqrt(mse)
 print("RMSE = ",rmse)
 ```
 ## Output:
+
 df.head()
 
 ![EXP2-2(a)](https://github.com/AnnBlessy/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477835/83e836a5-4565-48a7-9977-a7f085fe48d5)
@@ -101,33 +102,52 @@ df.tail()
 
 ![EXP2-2(b)](https://github.com/AnnBlessy/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477835/1e89f794-316e-495d-8cc6-d996bf4aa8fb)
 
+
+
+
 Array value of X
 
-![image](https://github.com/Praveenanagaraji22/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119393514/55de3f57-7924-4167-90ea-a068049b024b)
+![EXP2-3(a)](https://github.com/AnnBlessy/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477835/6f0f203a-f964-45a6-8fef-03c94460ab0f)
+
 
 Array value of Y
 
 ![EXP2-3(b)](https://github.com/AnnBlessy/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477835/b395273b-5b41-401e-b75e-ece609b0ba79)
 
+
 Values of Y Prediction
 
 ![EXP2-3(c)](https://github.com/AnnBlessy/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477835/e3e7d3bb-9a18-4345-a77c-a82898b9bee6)
+
 
 Array Values of Y test
 
 ![EXP2-3(d)](https://github.com/AnnBlessy/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477835/e0268633-13d2-49c9-9a4a-b970839acf42)
 
+
+
+
+
 Graph For Training Set
 
 ![EXP2-4](https://github.com/AnnBlessy/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477835/1c9e8b15-9199-4037-b22f-f026defe8889)
+
+
+
+
+
 
 Graph For Testing Set
 
 ![EXP2-5](https://github.com/AnnBlessy/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477835/f9ed7cc5-e28a-4376-aac4-efcd9cdc92f9)
 
+
+
 Error
 
 ![EXP2-6](https://github.com/AnnBlessy/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477835/80090da9-868b-4854-b970-840396a4be77)
+
+
 
 ## Result:
 Thus the program to implement the simple linear regression model for predicting the marks scored is written and verified using python programming.
