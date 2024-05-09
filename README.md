@@ -131,6 +131,12 @@ Array Values of Y test
 Graph For Training Set
 
 ![EXP2-4](https://github.com/AnnBlessy/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477835/1c9e8b15-9199-4037-b22f-f026defe8889)
+
+
+
+
+
+
 Graph For Testing Set
 
 ![EXP2-5](https://github.com/AnnBlessy/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477835/f9ed7cc5-e28a-4376-aac4-efcd9cdc92f9)
