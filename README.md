@@ -35,7 +35,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.metrics import mean_absolute_error,mean_squared_error
-
+```
+```
 df=pd.read_csv('/content/student_scores.csv')
 print('df.head')
 
@@ -88,7 +89,6 @@ print('MSE = ',mse)
 
 mae=mean_absolute_error(Y_test,Y_pred)
 print('MAE = ',mae)
-
 rmse=np.sqrt(mse)
 print("RMSE = ",rmse)
 ```
