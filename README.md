@@ -39,7 +39,6 @@ from sklearn.metrics import mean_absolute_error,mean_squared_error
 ```
 df=pd.read_csv('/content/student_scores.csv')
 print('df.head')
-
 df.head()
 
 print("df.tail")
@@ -55,7 +54,6 @@ Y
 
 from sklearn.model_selection import train_test_split
 X_train,X_test,Y_train,Y_test=train_test_split(X,Y,test_size=1/3,random_state=0)
-
 from sklearn.linear_model import LinearRegression
 regressor=LinearRegression()
 regressor.fit(X_train,Y_train)
@@ -63,7 +61,6 @@ Y_pred=regressor.predict(X_test)
 
 print("Values of Y prediction")
 Y_pred
-
 print("Values of Y test")
 Y_test
 
